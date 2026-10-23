@@ -1,7 +1,7 @@
 name: Evaluate LLM Model
 on: [push]
 jobs:
-  evaluate:
+   evaluate:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
